@@ -1,0 +1,21 @@
+{
+  "name": "team-feature-voting-board-backend-tests",
+  "version": "1.0.0",
+  "description": "Backend API tests for Team Feature Voting Board",
+  "main": "test-backend-api.js",
+  "scripts": {
+    "test": "node test-backend-api.js",
+    "test:backend": "node test-backend-api.js"
+  },
+  "keywords": [
+    "supabase",
+    "testing",
+    "feature-voting"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "dotenv": "^16.3.1"
+  }
+}
